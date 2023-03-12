@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 const colors = require('tailwindcss/colors');
 
 module.exports = {
@@ -19,7 +20,8 @@ module.exports = {
 
 				'primary-dark': '#0D2438',
 				'secondary-dark': '#102D44',
-				'ternary-dark': '#1E3851',
+				'ternary-dark': '#1E3851'
+				
 			},
 			container: {
 				padding: {

@@ -3,8 +3,8 @@ export default {
 	data: () => {
 		return {
 			copyrightDate: new Date().getFullYear(),
-			projectName: 'Vue.js & Tailwind CSS Portfolio',
-			author: 'Stoman',
+			projectName: 'Portifolio CoWorking Space Timon',
+			author: 'Atrevo Inovações',
 		};
 	},
 };
@@ -17,15 +17,15 @@ export default {
 		>
 			&copy; {{ copyrightDate }}.
 			<a
-				href="https://github.com/realstoman/vuejs-tailwindcss-portfolio"
+				href="https://www.uema.br/2022/03/campus-timon-apresenta-projeto-coworking-space-para-a-agencia-marandu-uema/"
 				target="__blank"
 				class="font-general-medium hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 duration-500"
 			>
 				{{ projectName }}
 			</a>
-			. Developed by
+			. Desenvolvido Por,
 			<a
-				href="https://stoman.me"
+				href="https://www.instagram.com/atrevoinovacoes"
 				target="__blank"
 				class="font-general-medium text-secondary-dark dark:text-secondary-light uppercase hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 duration-500"
 				>{{ author }}</a
